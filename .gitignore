@@ -1,0 +1,14 @@
+# Ignorar todo lo que haya dentro de dir1
+dir1/*
+
+# Permitir info.txt dentro de dir1
+!dir1/info.txt
+
+# Ignorar los .txt de dir2
+dir2/*.txt
+
+# Ignorar los .txt de dir3 y sus subcarpetas
+dir3/**/*.txt
+
+# Ignorar todos los archivos .o
+*.o
